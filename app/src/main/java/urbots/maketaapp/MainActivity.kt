@@ -43,10 +43,20 @@ class MainActivity : AppCompatActivity() {
         val btn_select: Button = findViewById(R.id.buttonSelectWelcome)
         // set on-click listener
         btn_select.setOnClickListener {
-            val intent = Intent(this, UsePlantActivity::class.java)
+
+            var intent = Intent(this, UseRenewablePlantActivity::class.java)
+
+            when (plant) {
+                "Hidroelèctrica" -> intent = Intent(this, HydroelectricPlantActivity::class.java)
+                "Nuclear", "Tèrmica" -> intent = Intent(this, UsePlantActivity::class.java)
+                else -> Intent(this, UseRenewablePlantActivity::class.java)
+            }
+
             intent.putExtra("PlantSelected", plant)
+
             // start activity
             startActivity(intent)
+
         }
 
     }

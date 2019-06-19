@@ -4,10 +4,10 @@
     <string name="select_button">Seleccionar</string>
     <string-array name="arduino_array">
         <item>Nuclear</item>
+        <item>Tèrmica</item>
         <item>Solar</item>
         <item>Hidroelèctrica</item>
         <item>Eólica</item>
-        <item>Cicle combinat</item>
     </string-array>
 
 </resources>
