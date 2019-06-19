@@ -1,13 +1,13 @@
 <resources>
     <string name="app_name">MaketaAPP</string>
-    <string name="welcome_message">Please, select and Arduino form list</string>
-    <string name="select_button">Select</string>
+    <string name="welcome_message">Quina planta vols controlar?</string>
+    <string name="select_button">Seleccionar</string>
     <string-array name="arduino_array">
-        <item>Arduino00</item>
-        <item>Arduino01</item>
-        <item>Arduino02</item>
-        <item>Arduino03</item>
-        <item>Arduino04</item>
+        <item>Nuclear</item>
+        <item>Solar</item>
+        <item>Hidroelèctrica</item>
+        <item>Eólica</item>
+        <item>Cicle combinat</item>
     </string-array>
 
 </resources>
