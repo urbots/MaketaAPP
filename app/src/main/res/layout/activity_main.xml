@@ -35,9 +35,8 @@
             android:text="@string/select_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignTop="@+id/arduino_spinner"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="100dp"
+            android:layout_alignParentBottom="true"
             android:backgroundTint="@color/colorAccent"
             android:id="@+id/buttonSelectWelcome"/>
 
